@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden; 
+      
+}
+
+.navbar {
+    background: rgb(43, 45, 176);
+    background: linear-gradient(180deg, rgba(43, 45, 176, 1) -65%, rgba(44, 140, 244, 1) 110%);
+    padding: 0 !important;
+    color: #fff;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+
+#banner {
+    background: rgb(43, 45, 176);
+    background: linear-gradient(180deg, rgba(43, 45, 176, 1) -65%, rgba(44, 140, 244, 1) 110%);
+    color: #fff;
+    padding-top: 5%;
+    height: 600px;
+}
+
+.promo-title {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 40px;
+    position: relative;
+    left: 370px;
+
+}
+
+.promo-title2 {
+    font-size: 20px;
+    margin-top: 40px;
+    position: relative;
+    left: 380px;
+
+}
+
+.searchField {
+    position: relative;
+    left: 320px;
+}
+
+.one {
+    height: 160px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.firstpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+}
+
+.firstpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.firstpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.secondpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+.secondpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.secondpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.thirdpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 140px;
+}
+
+.thirdpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.thirdpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.fourthpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 210px;
+}
+
+.fourthpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.fourthpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.fifthpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 280px;
+}
+
+.fifthpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.fifthpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.sixthpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+
+.sixthpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.sixthpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.seventhpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 420px;
+}
+
+.seventhpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.seventhpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.eigthpic {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 490px;
+}
+
+.eigthpic img {
+    width: 110px;
+    height: 110px;
+    border: 1px transparent;
+    border-radius: 80%;
+}
+
+.eigthpic h3 {
+    font-size: 18px;
+    color: #EFF3F6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.freeDownloads{
+    width: 100%;
+    height: 85px;
+    background-color: #C7EBFF;
+    position: relative;
+    margin-bottom: 70px;
+}
+.freeDownloads p{
+    font-size: 18px;
+     position: absolute;
+     top: 24px;
+    left: 500px; 
+    color: #374957;
+}
+.freeDownloads a button{
+    width: 170px;
+    height: 44px;
+    background-color: #1273Eb;
+    position: absolute;
+    left: 940px;
+    top: 17px;
+    font-size: 16px;
+    color: #fff;
+    border: transparent;
+    border-radius: 5px;
+}
+.trendingCategories{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
+.trendingCategories h2{
+    color: #374957;
+    font-size: 30px;
+    position: absolute;
+    left: 530px;
+}
+.trendingCategories h2 strong{
+    color: #1273Eb;
+    font-size: 30px;
+}
+.trendingCategories p{
+    color: #5F7D9F;
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+.collagePhotos{
+    width: 86%;
+    height: 690px;
+    margin: 20px auto 150px auto;
+    display: flex;
+}
+.photos1{
+    width: 50%;
+    height: 100%;
+    margin-right: -10px;
+}
+.bigImage{
+    width: 99%;
+    height: 69%;
+    position: relative;
+
+}
+.bigImage p{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom:20px;
+    left: 10px;
+    font-weight: bold;
+}
+.smallImage{
+    width: 99%;
+    height: 29%;
+    margin-top: 5px;
+    display: flex;
+}
+.smallImage_one{
+    width: 48%;
+    height: 100%;
+    position: relative;
+}
+.smallImage_one p{
+    position: absolute;
+    font-size: 16px;
+    color: #000;
+    position: absolute;
+    bottom:0px;
+    left: 10px;
+    font-weight: bold;
+}
+.smallImage_two{
+    width: 48%;
+    height: 100%;
+    margin-left: 13px;
+    position: relative;
+}
+.smallImage_two p{
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom:0px;
+    left: 10px;
+    font-weight: bold;
+}
+.photos2{
+    width: 50%;
+    height: 100%;
+}
+.partOne{
+    width: 100%;
+    height: 34%;
+    display: flex;
+
+}
+.One{
+    width: 50%;
+    height: 90%;
+}
+.Two{
+    width: 50%;
+    height: 90%;
+}
+.partTwo{
+    width: 100%;
+    height: 34%;
+    display: flex;
+
+}
+.Three{
+    width: 50%;
+    height: 90%;
+}
+.Four{
+    width: 50%;
+    height: 90%;
+}
+
+.partThree{
+    width: 100%;
+    height: 34%;
+    display: flex;
+
+}
+.Five{
+    width: 50%;
+    height: 90%;
+}
+.Six{
+    width: 50%;
+    height: 90%;
+}
+.innerCreator{
+    width: 86%;
+    height: 90px;
+    margin: 20px auto 50px auto;
+}
+.innerCreator h2{
+    font-size: 30px;
+    color: #374957;
+}
+.innerCreator p{
+    font-size: 18px;
+    color: #5F7D9F;
+}
+.innerCreator span{
+    font-size: 16px;
+    color: #0F73EE;
+    padding-left: 300px;
+}
+.creatorCards{
+    width: 86%;
+    height: 390px;
+    margin: 20px auto 90px auto;
+    display: flex;
+}
+.cardOne{
+    width: 25%;
+    height:100%;
+    margin-right: 10px;
+}
+.cardOne img{
+    width: 320px;
+    height: 385px;
+    border: transparent;
+    border-radius: 10px;
+}
+.cardTwo{
+    width: 25%;
+    height:100%;
+}
+.cardTwo img{
+    width: 320px;
+    height: 385px;
+    border: transparent;
+    border-radius: 10px;   
+}
+.cardThree{
+    width: 25%;
+    height:100%;
+    margin-left: 10px;
+
+}
+.cardThree img{
+    width: 320px;
+    height: 385px;
+    border: transparent;
+    border-radius: 10px;   
+}
+
+.cardFour{
+    width: 25%;
+    height:100%;
+    margin-left: 10px;
+
+}
+.cardFour img{
+    width: 320px;
+    height: 385px;
+    border: transparent;
+    border-radius: 10px;   
+}
+.smartChoice{
+    width: 75%;
+    height: 400px;
+    margin:10px auto 90px auto;
+    display: flex;
+    position: relative;
+
+}
+.leftPortion{
+    width: 50%;
+    height: 100%;
+}
+.firstHeading{
+    width: 100%;
+    height: 25%;
+}
+.firstHeading h3{
+    font-size: 22px;
+    color: #374957;
+}
+.firstHeading p{
+    font-size: 16px;
+    color: #5F7D9F;
+}
+.secondHeading{
+    width: 100%;
+    height: 25%;
+}
+.secondHeading h3{
+    font-size: 22px;
+    color: #374957;
+}
+.secondHeading p{
+    font-size: 16px;
+    color: #5F7D9F;
+}
+
+.thirdHeading{
+    width: 100%;
+    height: 25%;
+}
+.thirdHeading h3{
+    font-size: 22px;
+    color: #374957;
+}
+.thirdHeading p{
+    font-size: 16px;
+    color: #5F7D9F;
+}
+.fourthHeading{
+    width: 100%;
+    height: 25%;
+}
+.fourthHeading h3{
+    font-size: 22px;
+    color: #374957;
+}
+.fourthHeading p{
+    font-size: 16px;
+    color: #5F7D9F;
+}
+.rightPortion{
+    width: 50%;
+    height: 100%;
+}
+.rightPortion img{
+    position: absolute;
+    top:-20px;
+
+}
+.communityCard{
+    width: 75%;
+    height: 350px;
+    margin:10px auto 90px auto;
+    border: 1px solid olive;
+    border-radius: 10px;
+    background-color: #bfd4e8;
+    display: flex;
+}
+.textSection{
+    width: 50%;
+    height: 100%;
+}
+.textSection p{
+    font-size: 30px;
+    color: #374957;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.textSection strong{
+    color: #1273Eb;
+}
+.textSection_2 p{
+    font-size: 16px;
+    color: #374957;
+}
+.sellContent_button button{
+    height: 44px;
+    width: 145px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #1273Eb;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+}
+.imageSection img{
+    width: 440px;
+    height: 350px;
+    margin-left: 20px;
+}
